@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <!-- <script src="../angular/angular.min.js"></script> -->
+
+
+    <title>HTML CUstom Attributes</title>
+
+  </head>
+  <body>
+    <h1>HTML5 Custom Attributes </h1>
+
+<div id="target" ng-app="myApptest">
+<section>Section 1
+  <article>Article 1</article>
+</section>
+</div>
+
+<script>
+//var elem=document.getElementById('target');
+//console.log(elem);
+//console.log(elem.getAttribute('myApptest'));
+var elem2=document.querySelector("[ng-app]");
+console.log(elem2);
+</script>
+
+  </body>
+</html>
